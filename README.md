@@ -76,6 +76,28 @@ cp -r ai-smart-website-builder ~/.trae-cn/skills/
 | **电商** | 鲜艳、冲击力、紧迫感 | 动感、转化导向 | 品牌主色 + 高对比色 |
 | **跨境** | 生活方式、品牌感、全球化 | 流畅、故事性 | 柔和色系 + 全球视野 |
 
+## 📸 示例展示
+
+不同行业生成的网站具有截然不同的视觉风格，充分展现行业差异化设计：
+
+### 科技行业 - AI 客服 SaaS 官网
+
+![科技行业示例](screenshots/technology-example.jpg)
+
+### 医疗行业 - 牙科诊所网站
+
+![医疗行业示例](screenshots/medical-example.jpg)
+
+### 电商行业 - 有机护肤品商店
+
+![电商行业示例](screenshots/ecommerce-example.jpg)
+
+### 跨境电商 - DTC 生活方式品牌
+
+![跨境电商示例](screenshots/cross-border-example.jpg)
+
+---
+
 ## 🏭 支持的行业
 
 | 行业 | 特点 | 适合场景 |
