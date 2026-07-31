@@ -1,0 +1,107 @@
+sections:
+
+
+  hero:
+
+
+    component:
+
+      Hero
+
+
+
+    layout:
+
+      type:
+
+        center
+
+
+
+    content:
+
+
+      title:
+
+        "Build smarter products with AI"
+
+
+
+      description:
+
+        "利用人工智能提升企业效率"
+
+
+
+    animation:
+
+
+      title:
+
+        TextReveal
+
+
+      background:
+
+        GradientBackground
+
+
+
+
+
+  workflow:
+
+
+    component:
+
+      Workflow
+
+
+
+    steps:
+
+
+      - 用户输入需求
+
+
+      - AI理解分析
+
+
+      - Agent执行任务
+
+
+      - 输出结果
+
+
+
+
+
+  features:
+
+
+    component:
+
+      Features
+
+
+    columns:
+
+      3
+
+
+
+  pricing:
+
+
+    component:
+
+      Pricing
+
+
+    plans:
+
+      - Starter
+
+      - Pro
+
+      - Enterprise

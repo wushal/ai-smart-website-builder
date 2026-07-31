@@ -1,0 +1,82 @@
+sections:
+
+
+ hero:
+
+
+  component:
+
+   Hero
+
+
+
+  layout:
+
+   type:
+
+    split
+
+
+
+  content:
+
+
+   title:
+
+    "智能医疗，让健康更简单"
+
+
+
+   description:
+
+    "AI辅助医生提升诊疗效率"
+
+
+
+  visual:
+
+
+   type:
+
+    medical-image
+
+
+
+
+
+ trust:
+
+
+  component:
+
+   TrustSection
+
+
+
+  items:
+
+
+   - 医疗认证
+
+
+   - 专业团队
+
+
+   - 数据安全
+
+
+
+
+
+ services:
+
+
+  component:
+
+   Features
+
+
+
+  columns:
+
+   3

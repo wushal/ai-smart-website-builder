@@ -1,0 +1,68 @@
+# Cross-Border DTC Website Page Configuration
+
+name: cross-border-template
+
+industry: cross-border
+
+description:
+  Cross-Border DTC / Global Brand / Lifestyle Website
+
+theme:
+  use: cross-border
+
+layout:
+  type: landing-page
+  hero: fullscreen-visual
+
+sections:
+  - navbar
+  - hero
+  - brand-story
+  - product-gallery
+  - lifestyle
+  - reviews
+  - shipping-info
+  - newsletter
+  - footer
+
+motion:
+  enable: true
+  style:
+    - fade-in
+    - parallax
+    - video-background
+
+components:
+  chatbot:
+    enabled: false
+
+design-rules:
+  colors:
+    primary: "#2563EB"
+    secondary: "#EC4899"
+    accent: "#6366F1"
+    background: "#FFFFFF"
+    text: "#1F2937"
+  
+  typography:
+    heading-weight: 600-700
+    body-line-height: 1.6-1.8
+    hero-title-size: 56-80px
+    story-font: "elegant"
+  
+  spacing:
+    section-gap: 80-120px
+    content-max-width: 1200px
+  
+  cards:
+    border-radius: "rounded-2xl"
+    hover-effect: "scale-102 shadow-md"
+  
+  buttons:
+    border-radius: "rounded-lg"
+    animation: "subtle"
+  
+  images:
+    lifestyle-focus: true
+    scene-photography: true
+    global-elements: true

@@ -1,0 +1,123 @@
+industries:
+
+
+ technology:
+
+
+  keywords:
+
+   - AI
+
+   - SaaS
+
+   - 软件
+
+   - 云服务
+
+   - Agent
+
+   - API
+
+
+
+  template:
+
+   technology-template
+
+
+
+  theme:
+
+   technology
+
+
+
+
+
+ medical:
+
+
+  keywords:
+
+
+   - 医院
+
+   - 医生
+
+   - 健康
+
+   - 医疗
+
+   - 诊断
+
+
+
+  template:
+
+   medical-template
+
+
+
+  theme:
+
+   medical
+
+
+
+
+
+ ecommerce:
+
+
+  keywords:
+
+
+   - 商城
+
+   - 商品
+
+   - 品牌
+
+   - 购物
+
+
+
+  template:
+
+   ecommerce-template
+
+
+
+  theme:
+
+   ecommerce
+
+
+
+
+
+ cross-border:
+
+
+  keywords:
+
+
+   - Shopify
+
+   - 海外
+
+   - DTC
+
+   - 国际销售
+
+
+
+  template:
+
+   cross-border-template
+
+
+
+  theme:
+
+   cross-border

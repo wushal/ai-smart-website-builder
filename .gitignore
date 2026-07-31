@@ -1,0 +1,28 @@
+# History and Editor files
+.history/
+.DS_Store
+
+# Editor directories and files
+.idea/
+.vscode/
+
+# Logs
+logs
+*.log
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Misc
+*.local
+.editorconfig

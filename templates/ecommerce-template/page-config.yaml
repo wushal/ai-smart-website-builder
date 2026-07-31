@@ -1,0 +1,66 @@
+# Ecommerce Website Page Configuration
+
+name: ecommerce-template
+
+industry: ecommerce
+
+description:
+  Ecommerce / Online Store / Retail Website
+
+theme:
+  use: ecommerce
+
+layout:
+  type: landing-page
+  hero: split
+
+sections:
+  - navbar
+  - hero
+  - product-showcase
+  - benefits
+  - best-sellers
+  - reviews
+  - cta-banner
+  - footer
+
+motion:
+  enable: true
+  style:
+    - fade-in
+    - scale-in
+
+components:
+  chatbot:
+    enabled: false
+
+design-rules:
+  colors:
+    primary: "#FF6B6B"
+    secondary: "#F7931E"
+    accent: "#FFD93D"
+    background: "#FFFFFF"
+    text: "#1F2937"
+    price-red: "#DC2626"
+  
+  typography:
+    heading-weight: 700-800
+    body-line-height: 1.5
+    hero-title-size: 56-72px
+    price-size: "large"
+  
+  spacing:
+    section-gap: 48-64px
+    content-max-width: 1400px
+  
+  cards:
+    border-radius: "rounded-3xl"
+    hover-effect: "scale-105 shadow-xl"
+  
+  buttons:
+    border-radius: "rounded-xl"
+    animation: "scale"
+  
+  images:
+    product-quality: "high"
+    show-multiple-angles: true

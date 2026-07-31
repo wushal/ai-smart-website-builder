@@ -1,0 +1,66 @@
+name: ai-smart-website-builder
+
+version: 1.0.0
+
+
+description:
+
+  Generate premium React websites from natural language requirements.
+
+
+
+entry:
+
+  SKILL.md
+
+
+
+capabilities:
+
+
+ - React website generation
+
+ - UI design system
+
+ - Motion design
+
+ - AI chatbot integration
+
+ - Landing page generation
+
+
+
+supported_industries:
+
+
+ - technology
+
+ - medical
+
+ - ecommerce
+
+ - cross-border
+
+
+
+stack:
+
+
+ frontend:
+
+  React
+
+
+ language:
+
+  TypeScript
+
+
+ styling:
+
+  TailwindCSS
+
+
+ animation:
+
+  Framer Motion

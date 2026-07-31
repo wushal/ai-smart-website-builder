@@ -1,0 +1,86 @@
+# Technology Website Page Configuration
+
+
+name: technology-template
+
+
+industry: technology
+
+
+description:
+
+  AI SaaS / Software Product Website
+
+
+
+theme:
+
+  use: technology
+
+
+
+layout:
+
+  type: landing-page
+
+
+
+sections:
+
+
+  - navbar
+
+
+  - hero
+
+
+  - social-proof
+
+
+  - workflow
+
+
+  - features
+
+
+  - integrations
+
+
+  - pricing
+
+
+  - faq
+
+
+  - footer
+
+
+
+motion:
+
+
+  enable: true
+
+
+  style:
+
+    - gradient-background
+
+    - particle-animation
+
+    - scroll-reveal
+
+    - floating-card
+
+
+components:
+
+
+  chatbot:
+
+    enabled: true
+
+
+    position:
+
+      bottom-right

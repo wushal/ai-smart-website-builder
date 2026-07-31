@@ -1,0 +1,64 @@
+sections:
+
+
+hero:
+
+
+ component:
+
+  Hero
+
+
+
+layout:
+
+
+ type:
+
+  split
+
+
+
+visual:
+
+
+ type:
+
+  product-image
+
+
+
+
+product-showcase:
+
+
+ component:
+
+  ProductGallery
+
+
+
+features:
+
+
+ component:
+
+  Features
+
+
+
+reviews:
+
+
+ component:
+
+  Testimonials
+
+
+
+cta:
+
+
+ text:
+
+  "立即购买"

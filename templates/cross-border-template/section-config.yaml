@@ -1,0 +1,76 @@
+sections:
+
+
+hero:
+
+
+ component:
+
+  Hero
+
+
+
+layout:
+
+
+ type:
+
+  fullscreen
+
+
+
+content:
+
+
+title:
+
+
+ "Discover Your Lifestyle"
+
+
+
+visual:
+
+
+ type:
+
+  video-background
+
+
+
+
+
+brand-story:
+
+
+ component:
+
+  StorySection
+
+
+
+product:
+
+
+ component:
+
+  ProductGallery
+
+
+
+shipping:
+
+
+ component:
+
+  ShippingInfo
+
+
+
+content:
+
+
+ support:
+
+  worldwide shipping
+

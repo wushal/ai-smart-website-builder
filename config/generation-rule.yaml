@@ -1,0 +1,82 @@
+website:
+
+
+required-components:
+
+
+ - Navbar
+
+ - Footer
+
+ - AIChat
+
+
+
+
+
+responsive:
+
+
+ required:
+
+  true
+
+
+
+
+
+animation:
+
+
+ enabled:
+
+  true
+
+
+
+rules:
+
+
+hero:
+
+
+ required:
+
+  true
+
+
+
+cta:
+
+
+ required:
+
+  true
+
+
+
+sections:
+
+
+ minimum:
+
+  5
+
+
+
+code:
+
+
+ style:
+
+
+  component-based
+
+
+
+ forbidden:
+
+
+  - inline huge component
+
+  - duplicate code

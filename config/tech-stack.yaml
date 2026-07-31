@@ -1,0 +1,94 @@
+# 技术栈规范
+
+
+frontend:
+
+
+ framework:
+
+  React
+
+
+
+ language:
+
+  TypeScript
+
+
+
+ build-tool:
+
+  Vite
+
+
+
+ style:
+
+  TailwindCSS
+
+
+
+ component:
+
+
+  library:
+
+   shadcn/ui
+
+
+
+ animation:
+
+
+  library:
+
+   Framer Motion
+
+
+
+ icon:
+
+
+  library:
+
+   lucide-react
+
+
+
+ state:
+
+
+  library:
+
+   Zustand
+
+
+
+ api:
+
+
+  library:
+
+   Axios
+
+
+
+ router:
+
+
+  library:
+
+   React Router
+
+
+
+rules:
+
+
+ - 必须使用TypeScript
+
+ - 必须组件化开发
+
+ - 禁止生成单文件巨大组件
+
+ - 所有页面必须响应式

@@ -1,0 +1,60 @@
+# Medical Website Page Configuration
+
+name: medical-template
+
+industry: medical
+
+description:
+  Medical / Healthcare / Clinic Website
+
+theme:
+  use: medical
+
+layout:
+  type: landing-page
+  hero: split
+
+sections:
+  - navbar
+  - hero
+  - trust-badges
+  - services
+  - doctors
+  - testimonials
+  - contact
+  - footer
+
+motion:
+  enable: true
+  style:
+    - fade-in
+    - slide-up
+
+components:
+  chatbot:
+    enabled: false
+
+design-rules:
+  colors:
+    primary: "#3B82F6"
+    secondary: "#10B981"
+    accent: "#F7931E"
+    background: "#FFFFFF"
+    text: "#1F2937"
+  
+  typography:
+    heading-weight: 600-700
+    body-line-height: 1.6-1.8
+    hero-title-size: 48-64px
+  
+  spacing:
+    section-gap: 60-80px
+    content-max-width: 1200px
+  
+  cards:
+    border-radius: "rounded-xl"
+    hover-effect: "shadow-md"
+  
+  buttons:
+    border-radius: "rounded-full"
+    animation: "none"
