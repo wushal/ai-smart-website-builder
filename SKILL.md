@@ -143,6 +143,33 @@ Select suitable template.
 
 Copy required files from react-starter.
 
+> **CRITICAL — Mandatory Template Copy Rule**
+>
+> When copying from `react-starter`, the following files MUST be included in every generated project. Do NOT skip or re-implement these from scratch:
+>
+> | Source File | Target Path | Purpose |
+> |---|---|---|
+> | `src/config/i18n.ts` | `src/config/i18n.ts` | i18n config (zh/en/ja/ko) |
+> | `src/config/store.ts` | `src/config/store.ts` | Zustand store (theme + lang + chat) |
+> | `src/config/themes.css` | `src/config/themes.css` | CSS variables for light/dark |
+> | `src/config/themes.ts` | `src/config/themes.ts` | Industry color tokens |
+> | `utils/i18n.ts` | `utils/i18n.ts` | i18n re-export |
+>
+> After copying, the agent MUST:
+>
+> 1. **Update translation content** in `i18n.ts` to match the generated website's copy (not the default template copy).
+> 2. **Update industry color tokens** in `themes.ts` to match the selected industry's color system.
+> 3. **Import `themes.css`** in the project entry (`main.tsx` or `index.css`) so CSS variables take effect.
+> 4. **Add `<ThemeSwitcher>` and `<LanguageSwitcher>`** to the Navbar component.
+> 5. **Verify** that `useAppStore` from `store.ts` is used for theme/lang state — never use `useState` for these.
+>
+> **Forbidden:**
+>
+> - Hardcoding text without `t()` wrapper
+> - Using `useState` for theme or language (must use `useAppStore`)
+> - Skipping the CSS variable system and hardcoding colors
+> - Omitting the language switcher or theme toggle from the Navbar
+
 **Step 5:**
 
 Create a new project folder in the user's current workspace.
@@ -973,6 +1000,19 @@ Before completing generation, verify each item:
 - [ ] API layer is abstracted
 - [ ] Directory structure is clean
 - [ ] Semantic HTML is used throughout
+
+### i18n & Theme
+
+- [ ] `src/config/i18n.ts` copied from react-starter and updated with website copy
+- [ ] `src/config/store.ts` copied from react-starter (Zustand store)
+- [ ] `src/config/themes.css` copied and imported in entry file
+- [ ] `src/config/themes.ts` copied and updated with industry colors
+- [ ] Navbar includes Language Switcher (zh/en/ja/ko)
+- [ ] Navbar includes Theme Toggle (light/dark)
+- [ ] All text uses `t('key')` — no hardcoded strings
+- [ ] Theme state uses `useAppStore` — not `useState`
+- [ ] Language state uses `useAppStore` — not `useState`
+- [ ] CSS variables used for colors — no hardcoded hex values in components
 
 ---
 
