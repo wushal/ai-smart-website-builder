@@ -1,176 +1,176 @@
 # AI Native Website Architect Skill
 
-一个强大的 AI Skill，能够通过一句自然语言描述，自动生成完整、高质量、多语言的企业官网代码。
+A powerful AI Skill that generates complete, production-ready, multilingual corporate websites from a single natural language description.
 
-## ✨ 核心特性
+## ✨ Key Features
 
-- **🎯 一句话生成官网**: 输入需求，自动生成 React + TypeScript + TailwindCSS 项目
-- **🏭 多行业适配**: 支持科技、医疗、电商、跨境电商四大行业
-- **🌍 多语言支持**: 内置多语言切换机制
-- **🎨 双主题系统**: 支持深浅模式切换
-- **💎 动效设计**: 集成 Framer Motion，提供专业级交互体验
-- **🧠 反AI风格**: 内置反AI生成规则，避免千篇一律的视觉效果
-- **📱 响应式**: 移动端优先设计，完美适配各种屏幕
-- **🔌 AI 客服集成**: 可选集成 AI 客服组件
+- **🎯 One-Sentence Website Generation**: Describe your needs, get a full React + TypeScript + TailwindCSS project
+- **🏭 Multi-Industry Support**: Technology, Medical, Ecommerce, and Cross-Border DTC industries
+- **🌍 Multilingual**: Built-in i18n with Chinese, English, Japanese, and Korean
+- **🎨 Dual Theme System**: Light and dark mode with smooth transitions
+- **💎 Motion Design**: Integrated Framer Motion for professional-grade interactions
+- **🧠 Anti-AI Aesthetic**: Built-in rules to avoid generic AI-generated visual patterns
+- **📱 Responsive**: Mobile-first design, perfectly adapted to all screen sizes
+- **🔌 AI Chatbot Integration**: Optional intelligent customer service component
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
-### 1. 安装 Skill
+### 1. Install the Skill
 
-#### 方式一：手动安装
+#### Option A: Manual Installation
 
 ```bash
-# 克隆仓库
-git clone https://github.com/yourname/ai-smart-website-builder.git
+# Clone the repository
+git clone https://github.com/wushal/ai-smart-website-builder.git
 
-# 将 skill 目录复制到 TRAE skills 目录
+# Copy the skill directory to your TRAE skills folder
 cp -r ai-smart-website-builder ~/.trae-cn/skills/
 ```
 
-#### 方式二：在对话中引用
+#### Option B: Reference in Conversation
 
-直接在 TRAE 对话框中引用 `SKILL.md` 文件路径：
+Reference the `SKILL.md` file path directly in a TRAE conversation:
 
 ```
 @/path/to/ai-smart-website-builder/SKILL.md
 ```
 
-### 2. 使用示例
+### 2. Usage Examples
 
-在 TRAE 中激活 Skill 后，直接用自然语言描述你的需求：
-
-```
-帮我生成一个AI客服SaaS官网
-```
+Once the Skill is activated in TRAE, simply describe your needs in natural language:
 
 ```
-需要一个高端牙科诊所网站，要有预约功能
+Generate an AI customer service SaaS landing page
 ```
 
 ```
-我想要一个有机护肤品电商网站，风格简约清新
+I need a premium dental clinic website with an appointment booking feature
 ```
 
 ```
-生成一个跨境DTC品牌站，主打环保生活方式
+Build an organic skincare ecommerce site with a clean, minimalist style
 ```
 
-## 🎯 反 AI 风格设计理念
+```
+Create a cross-border DTC brand site focused on eco-friendly lifestyle
+```
 
-本 Skill 的核心优势在于**拒绝平庸的 AI 生成风格**。我们建立了一套完整的反 AI 检测机制：
+## 🎯 Anti-AI Aesthetic Design Philosophy
 
-### ❌ 我们避免的 AI 常见问题
+The core differentiator of this Skill is its **refusal to produce generic AI-generated designs**. We've built a comprehensive anti-AI detection mechanism:
 
-- **视觉同质化**: 避免所有网站都使用相同的紫蓝渐变
-- **万能色滥用**: 不使用 `#8B5CF6`、`#06B6D4`、`#667eea` 等 AI 常用色
-- **动效泛滥**: 不为每个元素添加相同的 fadeInUp 动画
-- **模板化布局**: 不使用固定的"居中 Hero + 三列 Features"模式
-- **空泛文案**: 拒绝 "赋能"、"革命"、"智能" 等空洞词汇
+### ❌ Common AI Patterns We Avoid
 
-### ✅ 我们追求的行业差异化
+- **Visual Homogenization**: No more purple-blue gradients on every website
+- **Overused AI Colors**: No `#8B5CF6`, `#06B6D4`, `#667eea` or other "AI defaults"
+- **Animation Overload**: Not every element gets the same `fadeInUp` animation
+- **Formulaic Layouts**: No rigid "centered Hero + 3-column Features" template
+- **Empty Buzzwords**: No "empower", "revolutionize", "intelligent" fluff
 
-| 行业 | 视觉语言 | 动效风格 | 色彩基调 |
-|------|---------|---------|---------|
-| **科技** | 暗色、未来感、线条感 | 克制、科技感 | 深色背景 + 品牌色点缀 |
-| **医疗** | 明亮、专业、清新 | 温和、专业 | 白色/浅蓝 + 专业医疗色 |
-| **电商** | 鲜艳、冲击力、紧迫感 | 动感、转化导向 | 品牌主色 + 高对比色 |
-| **跨境** | 生活方式、品牌感、全球化 | 流畅、故事性 | 柔和色系 + 全球视野 |
+### ✅ Industry-Specific Differentiation
 
-## 📸 示例展示
+| Industry | Visual Language | Motion Style | Color Palette |
+|----------|----------------|-------------|---------------|
+| **Technology** | Dark, futuristic, linear | Restrained, tech-feel | Dark bg + accent brand color |
+| **Medical** | Bright, professional, clean | Gentle, trustworthy | White/light blue + medical tones |
+| **Ecommerce** | Vibrant, high-impact, urgency | Dynamic, conversion-driven | Brand color + high contrast |
+| **Cross-Border** | Lifestyle, brand storytelling | Smooth, narrative | Soft tones + global feel |
 
-不同行业生成的网站具有截然不同的视觉风格，充分展现行业差异化设计：
+## 📸 Examples
 
-### 科技行业 - AI 客服 SaaS 官网
+Each industry produces a distinctly different visual style, showcasing true design differentiation:
 
-![科技行业示例](screenshots/technology-example.jpg)
+### Technology — AI Customer Service SaaS
 
-### 医疗行业 - 牙科诊所网站
+![Technology Example](screenshots/technology-example.jpg)
 
-![医疗行业示例](screenshots/medical-example.jpg)
+### Medical — Dental Clinic
 
-### 电商行业 - 有机护肤品商店
+![Medical Example](screenshots/medical-example.jpg)
 
-![电商行业示例](screenshots/ecommerce-example.jpg)
+### Ecommerce — Organic Skincare Store
 
-### 跨境电商 - DTC 生活方式品牌
+![Ecommerce Example](screenshots/ecommerce-example.jpg)
 
-![跨境电商示例](screenshots/cross-border-example.jpg)
+### Cross-Border — DTC Lifestyle Brand
+
+![Cross-Border Example](screenshots/cross-border-example.jpg)
 
 ---
 
-## 🏭 支持的行业
+## 🏭 Supported Industries
 
-| 行业 | 特点 | 适合场景 |
-|------|------|---------|
-| **科技 (Technology)** | 暗色主题、未来感、数据驱动 | SaaS 产品、AI 工具、B2B 服务 |
-| **医疗 (Medical)** | 明亮、专业、信任感 | 诊所、医院、医疗器械 |
-| **电商 (Ecommerce)** | 高转化、视觉冲击力、紧迫感 | 零售、美妆、服装 |
-| **跨境 (Cross-Border)** | 品牌故事、生活方式、全球化 | DTC 品牌、国际贸易 |
+| Industry | Characteristics | Best For |
+|----------|-----------------|----------|
+| **Technology** | Dark themes, futuristic, data-driven | SaaS products, AI tools, B2B services |
+| **Medical** | Bright, professional, trustworthy | Clinics, hospitals, medical devices |
+| **Ecommerce** | High conversion, visual impact, urgency | Retail, beauty, fashion |
+| **Cross-Border** | Brand storytelling, lifestyle, global | DTC brands, international trade |
 
-## 📁 项目结构
+## 📁 Project Structure
 
 ```
 ai-smart-website-builder/
-├── SKILL.md                      # 核心 Skill 入口文件
-├── skill-meta.yaml               # Skill 元数据
-├── README.md                     # 项目说明
+├── SKILL.md                      # Core Skill entry file
+├── skill-meta.yaml               # Skill metadata
+├── README.md                     # Project documentation
 │
-├── config/                       # 配置文件
-│   ├── industry-map.yaml         # 行业映射
-│   ├── tech-stack.yaml           # 技术栈配置
-│   └── generation-rule.yaml      # 生成规则
+├── config/                       # Configuration files
+│   ├── industry-map.yaml         # Industry mapping
+│   ├── tech-stack.yaml           # Tech stack config
+│   └── generation-rule.yaml      # Generation rules
 │
-├── design-system/                # 设计系统
-│   ├── color-system/             # 色彩系统
-│   ├── typography/               # 字体规范
-│   ├── motion-system/            # 动效规范
-│   ├── layout-system/            # 布局系统
-│   ├── industries/               # 行业专属设计
+├── design-system/                # Design system
+│   ├── color-system/             # Color system
+│   ├── typography/               # Typography rules
+│   ├── motion-system/            # Motion design rules
+│   ├── layout-system/            # Layout system
+│   ├── industries/               # Industry-specific designs
 │   │   ├── technology/
 │   │   ├── medical/
 │   │   ├── ecommerce/
 │   │   └── cross-border/
-│   └── quality-check/            # 质量检测规则
-│       ├── ai-style-check.md     # AI 风格检测
-│       └── ui-quality-check.md   # UI 质量检查
+│   └── quality-check/            # Quality detection rules
+│       ├── ai-style-check.md     # AI style detection
+│       └── ui-quality-check.md   # UI quality checks
 │
-├── generators/                   # 生成器
-│   ├── analyze-request.md        # 需求分析
-│   ├── select-template.md        # 模板选择
-│   ├── select-component.md       # 组件选择
-│   └── generate-code.md          # 代码生成
+├── generators/                   # Generators
+│   ├── analyze-request.md        # Request analysis
+│   ├── select-template.md        # Template selection
+│   ├── select-component.md       # Component selection
+│   └── generate-code.md          # Code generation
 │
-├── prompts/                      # 提示词模板
-│   ├── copywriting.md            # 文案生成
-│   ├── image-generation.md       # 图片生成
-│   ├── ui-generation.md          # UI 生成
-│   └── website-analysis.md       # 网站分析
+├── prompts/                      # Prompt templates
+│   ├── copywriting.md            # Copywriting generation
+│   ├── image-generation.md       # Image generation
+│   ├── ui-generation.md          # UI generation
+│   └── website-analysis.md       # Website analysis
 │
-├── templates/                    # 行业模板
+├── templates/                    # Industry templates
 │   ├── technology-template/
 │   ├── medical-template/
 │   ├── ecommerce-template/
 │   └── cross-border-template/
 │
-├── themes/                       # 行业主题
+├── themes/                       # Industry themes
 │   ├── technology.ts
 │   ├── medical.ts
 │   ├── ecommerce.ts
 │   └── cross-border.ts
 │
-├── examples/                     # 示例
+├── examples/                     # Examples
 │   ├── technology-example.md
 │   ├── medical-example.md
 │   ├── ecommerce-example.md
 │   └── cross-border-example.md
 │
-├── references/                   # 设计参考
+├── references/                   # Design references
 │   ├── technology.md
 │   ├── medical.md
 │   ├── ecommerce.md
 │   └── cross-border.md
 │
-└── react-starter/                # React 项目模板
+└── react-starter/                # React project template
     ├── src/
     ├── components/
     ├── sections/
@@ -180,38 +180,38 @@ ai-smart-website-builder/
     └── README.md
 ```
 
-## 🛠️ 生成的技术栈
+## 🛠️ Generated Tech Stack
 
-- **框架**: React 18 + TypeScript
-- **构建**: Vite
-- **样式**: TailwindCSS
-- **动效**: Framer Motion
-- **图标**: Lucide React
-- **状态管理**: Zustand
-- **多语言**: react-i18next
-- **路由**: React Router
+- **Framework**: React 18 + TypeScript
+- **Build**: Vite
+- **Styling**: TailwindCSS
+- **Animation**: Framer Motion
+- **Icons**: Lucide React
+- **State Management**: Zustand
+- **i18n**: react-i18next
+- **Routing**: React Router
 
-## 📖 详细文档
+## 📖 Documentation
 
-- [核心 SKILL 规则](SKILL.md)
-- [React 项目模板说明](react-starter/README.md)
-- [设计系统总览](design-system/README.md)
-- [反 AI 风格检测规则](design-system/quality-check/ai-style-check.md)
+- [Core SKILL Rules](SKILL.md)
+- [React Starter Template](react-starter/README.md)
+- [Design System Overview](design-system/README.md)
+- [Anti-AI Style Detection Rules](design-system/quality-check/ai-style-check.md)
 
-## 🤝 贡献指南
+## 🤝 Contributing
 
-欢迎贡献！请查看 [CONTRIBUTING.md](CONTRIBUTING.md) 了解详情。
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-## 📄 许可证
+## 📄 License
 
-本项目基于 [MIT License](LICENSE) 开源。
+This project is open-sourced under the [MIT License](LICENSE).
 
-## 🙏 致谢
+## 🙏 Acknowledgements
 
-- Linear 设计系统参考
-- Framer Motion 动画库
-- TailwindCSS 样式框架
+- Linear design system inspiration
+- Framer Motion animation library
+- TailwindCSS styling framework
 
 ---
 
-**让 AI 创造更好的网站体验** 🚀
+**Let AI create better website experiences** 🚀
