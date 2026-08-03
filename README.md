@@ -1,6 +1,25 @@
+<div align="center">
+
+<img src="screenshots/banner.jpg" alt="AI Native Website Architect Skill" />
+
 # AI Native Website Architect Skill
 
-A powerful AI Skill that generates complete, production-ready, multilingual corporate websites from a single natural language description.
+**Generate production-ready, multilingual company websites from a single sentence.**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![React](https://img.shields.io/badge/React-18-61DAFB.svg?logo=react)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6.svg?logo=typescript)](https://www.typescriptlang.org)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-06B6D4.svg?logo=tailwindcss)](https://tailwindcss.com)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-FF0080.svg)](https://www.framer.com/motion)
+[![i18n](https://img.shields.io/badge/i18n-4%20languages-orange.svg)](#)
+
+⭐ **If this project helps you, please give it a star — it helps others discover it!** ⭐
+
+</div>
+
+---
+
+A powerful AI Skill that generates complete, production-ready, multilingual corporate websites from a single natural language description. Built for [TRAE](https://www.trae.cn/), with anti-AI-aesthetic rules baked in.
 
 ## ✨ Key Features
 
